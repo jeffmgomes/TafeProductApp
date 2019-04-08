@@ -15,7 +15,8 @@
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
         <TextBlock Name="lblTotalCharge" Text="Total Charge after adding &#xA;the delivery charge ($25)" HorizontalAlignment="Left" Height="34" Margin="48,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151"/>
-        <TextBox Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="24" Margin="204,209,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>        
-
+        <TextBox Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="24" Margin="204,209,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+        <TextBlock Name="lblTotalCharge5" Text="Total Charge after adding &#xA;the wrap charge ($5)" HorizontalAlignment="Left" Height="34" Margin="46,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151"/>
+        <TextBox Name="totalWrapCharge" HorizontalAlignment="Left" Height="24" Margin="204,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
     </Grid>
 </Window>
